@@ -1,22 +1,29 @@
-* {
-  box-sizing: border-box;
+p {
+  font-size: 24px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+#gen1 {
+  border: 2px solid black;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
 }
 
-header,
-footer {
-  background: #007bff;
-  color: white;
-  padding: 10px;
+#main-title {
+  color: blue;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 20px;
+.title {
+  color: green;
+}
+
+h1 {
+  color: black;
 }
